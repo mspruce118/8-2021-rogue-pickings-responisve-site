@@ -52,6 +52,7 @@ p {
 
 header h1 {	
 	border-bottom: 3px solid #77a466;
+	width: 100%;
 	
 }
 
@@ -64,6 +65,7 @@ header nav {
 	display: flex;
 	justify-content: center;
 	margin: auto;
+	text-align: center;
 }
 
 header nav ul {
@@ -84,10 +86,7 @@ header nav ul li a {
 }
 
 /*The widths are in a percentage!*/
-.top-section,
-.bottom-section {
-	
-}
+
 
 .main-image {
 	height: auto;
@@ -116,15 +115,6 @@ header nav ul li a {
 .section-two,
 .section-three {
 	border-top: 1px solid #eee;
-}
-
-.section-one h3 {
-	}
-
-
-
-.section-two h3,
-.section-three h3 {
 }
 
 .menu {
@@ -175,6 +165,8 @@ footer span {
 	  flex-basis: 30%;
   }
 
+  
+
   .section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
@@ -194,6 +186,7 @@ footer span {
 		display: flex;
 		flex-direction: row nowrap;
 		justify-content: space-between;
+		width: 100%;
 	}
 	
 	
